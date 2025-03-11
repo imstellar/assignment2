@@ -1,0 +1,3 @@
+For this exersize you can use any other appropriate images from the web that you choose and we will replace them with stock photography before the site goes live.
+
+Please remember to optimise them so we can get an idea of bandwidth per page.

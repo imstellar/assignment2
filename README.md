@@ -27,4 +27,7 @@ Over this page, I aim to document my Designs, Developements, Testing and Provide
 
 ### 4.2 - Potential future improvements
 
-### 4.3 - 
+### 4.3 - Reviewing actions taken based on feedback
+
+## References
+- Adobe Colors, Available at [https://color.adobe.com](https://color.adobe.com/)

@@ -1,0 +1,18 @@
+Hello! My name is Li and I enjoy creating things that live on the internet. 
+
+I decided on this career as I grew up with a heavy influence from my father who ran his own software house, and I got an insight into what it's like to work in the tech industry. My father would always hype about how learning to program or by 'speaking the computer's language', he could type a few lines of code and tell the computer to do whatever he wanted it to do and that just blew my then curious and budding little mind.
+As I grew older, my interest in the field continued to grow as I started to understand the importance of technology and how it will continuously evolve to become a basic necessity in our day to day lives.
+I have always been one of the few girls in computing classes in school as well as only one of three other girls in my college courses, but I thought if my dad can do it, then so can I.
+
+I got my job with Hot Beans when I was in my last year of university, England had just gone into a lockdown due to COVID-19, and I was on the lookout for a good graduate job.
+I came across a job posting for a front-end engineer role at HBW I applied and a few days later I got a call for an interview. During the interview I spoke about how I enjoy all aspects of tech from design to development, as well as my awareness of the importance of web accessibility. A couple of days later, I received a phone call offering me the job and an email from my manager to tell me that I was joining the accessibility team.
+
+A typical as a graduate accessibility specialistis where I work alongside designers and developers to support them to create and build brilliant new features and run accessibility audits across different sites and applications against WCAG (Web Content Accessibility Guidelines), which helps us find accessibility issues to tackle. This ensures that our sites can be used by everyone regardless of their disabilities. My team and I also create and deliver engagement resources to raise awareness and understanding of accessibility.
+
+Apart from having the basic knowledge of web development and accessibility to carry out the job you also need:
+determination to learn
+good communication skills
+good analytical skills
+to be adaptive and collaborative to work alongside different people.
+
+The part I enjoy most about my job is working with a large number of inspiring developers and designers with a range of unique and amazing ideas across many different projects. At the same time, I have an opportunity to advocate and educate others about the importance of the topic. It's great knowing that the websites we've put online are accessible and safe for everyone to use, regardless of their disability.
