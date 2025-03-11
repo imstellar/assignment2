@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="ioy_3syxzAF1e0OAr2j0">
-    <mxGraphModel>
+    <mxGraphModel dx="925" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3kJi9KBSPZgS1uLCo4rj-1" target="3kJi9KBSPZgS1uLCo4rj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3kJi9KBSPZgS1uLCo4rj-1" target="3kJi9KBSPZgS1uLCo4rj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="100" />
+              <mxPoint x="254" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3kJi9KBSPZgS1uLCo4rj-1" target="3kJi9KBSPZgS1uLCo4rj-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="100" />
+              <mxPoint x="594" y="100" />
+              <mxPoint x="594" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;&lt;u&gt;index.html&lt;/u&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;- Landing page of the site&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;- Contains links to other pages&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="352" y="40" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-2" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;&lt;u&gt;jobs.html&lt;/u&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;- Outlines position requirements&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;- Provides a form to fill out&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="352" y="120" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-3" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;&lt;u&gt;learn.html&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;- Provides courses to follow recommended by the company&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="147" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3kJi9KBSPZgS1uLCo4rj-4" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;&lt;u&gt;profile.html&lt;/u&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px; line-height: 100%;&quot;&gt;&amp;nbsp;- Outlines company profile&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;- Outlines employee profiles&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="147" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
