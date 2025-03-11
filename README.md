@@ -4,7 +4,12 @@ Over this page, I aim to document my Designs, Developements, Testing and Provide
 ## 1 - Design
 Within this section, I aim to use the requirements as specified in the brief to produce designs including Colour Themes, Styles, Layouts and Such. With these designs I establish how the website will Look, Flow and Function. 
 ### 1.1 - Analysing client requirements
+To properly analyse the client requirements we can take a look at the Scenario and Task 1 content which outlines all relevant information. To start with, the company, "Hot Beans Web" has hired us as a junior web developer and have requested a website which aims to recruit more web developers.
 
+Moving on to the target audience, the brief states it is as follows,
+> People who have completed training courses or qualifications related to web developent and are now looking for a job as a web developer.
+
+This is a rather simple description and as such it allows for us to have freedom when creating the upcoming designs, we should however make sure the website outlines the company's targets, allows for visitors to send applications and is not confusing in it's structure, content or layout while utilising well thought out styling including font sizes, font colours, background colours, buttons and such.
 
 ### 1.2 - Colour schemes & Typography
 
