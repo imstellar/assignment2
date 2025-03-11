@@ -2,7 +2,9 @@
 Over this page, I aim to document my Designs, Developements, Testing and Provide an Evaluation for my website project assignment. There are 4 distinct sections that have their own sub-sections which aim to describe and fulfil a specific portion of the criteria described in the assignment brief.
 
 ## 1 - Design
+Within this section, I aim to use the requirements as specified in the brief to produce designs including Colour Themes, Styles, Layouts and Such. With these designs I establish how the website will Look, Flow and Function. 
 ### 1.1 - Analysing client requirements
+
 
 ### 1.2 - Colour schemes & Typography
 
