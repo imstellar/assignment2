@@ -12,6 +12,9 @@ Moving on to the target audience, the brief states it is as follows,
 This is a rather simple description and as such it allows for us to have freedom when creating the upcoming designs, we should however make sure the website outlines the company's targets, allows for visitors to send applications and is not confusing in it's structure, content or layout while utilising well thought out styling including font sizes, font colours, background colours, buttons and such.
 
 ### 1.2 - Colour schemes & Typography
+Moving on to our Colours, Font styling and any other relevant styling that will be used within our design, I am to create a well laid out design sheet using Adobe Illustrator that will contain content such as Font Styles, Font sizes and the Colour theme.
+
+To get a good colour theme set up, I have noticed the image assets provided, specifically the [logo.png](assets/images/logo.png) file contains a background colour already, this will allow us to utilise the colour which is `#597A5E`, bringing this colour 2 shades up utilising Adobe Colors Complementary colour wheel we get `#A9DBB2`, we can then use this colour as our core for the Complemetary wheel producing a full-fledged set of colours that can now be used within the design and website, the full colour theme is available [here](assets/images/logo.png)  
 
 ### 1.3 - Wireframe
 
