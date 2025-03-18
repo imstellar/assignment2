@@ -18,14 +18,10 @@ To get a good colour theme set up, I have noticed the image assets provided, spe
 
 Now, I will work on the Adobe Illustrator project, which will be updated when needed and added to as the project progresses, the project file is available [here](assets/design/Design%20sheet.ai) and the latest export of the project file is [here](assets/design/Design%20sheet.png).
 
-### 1.3 - Wireframe
-Moving on to a more layout focused part of the design section, I can now create a wireframe, this wireframe aims to allow me to generalise the layout of my website without having to worry about the colours, images and anything not required within a wireframe.
+### 1.3 - Mockup
+I will produce a sitemap to allow me to map out the website's pages that are utilised within the end product, to do so I will use [draw.io](https://draw.io), the exported sitemap file is also available [here](assets/design/sitemap.png).
 
-I would also like to first produce a sitemap, which will allow me to map out the website's pages that are utilised within the end product, to do so I will use [draw.io](https://draw.io), the exported sitemap file is also available [here](assets/design/sitemap.png)
-
-To create this wireframe, I will utilise Axure RP 11 for which I have a free student license available to students at no cost, this wireframe is both available in the forms of the [project](assets/design/wireframe/Wireframe.rp) and [exported](assets/design/wireframe/) versions.
-
-### 1.4 - Mockup
+Here, I aim to create a functioning design prototype and create a fully laid out website along with its featured pages, this will allow me to effectively establish the colours, layout and features of the website before having to worry about trial and error when writing the code making the process more straightforward.
 
 ## 2 - Developement
 ### 2.1 - Code layout
