@@ -45,3 +45,4 @@ Here, I aim to create a functioning design prototype and create a fully laid out
 ## References
 - Adobe Colors, Available at [https://color.adobe.com](https://color.adobe.com/)
 - Draw.io, Available at [https://draw.io/](https://draw.io/)
+- Freepik, Available at [https://freepik.com/](https://freepik.com/)
