@@ -16,8 +16,6 @@ Moving on to our Colours, Font styling and any other relevant styling that will 
 
 To get a good colour theme set up, I have noticed the image assets provided, specifically the [logo.png](assets/images/logo.png) file contains a background colour already, this will allow us to utilise the colour which is `#597A5E`, bringing this colour 2 shades up utilising Adobe Colors Complementary colour wheel we get `#A9DBB2`, we can then use this colour as our core for the Complemetary wheel producing a full-fledged set of colours that can now be used within the design and website, the full colour theme is available [here](assets/images/logo.png).
 
-Now, I will work on the Adobe Illustrator project, which will be updated when needed and added to as the project progresses, the project file is available [here](assets/design/Design%20sheet.ai) and the latest export of the project file is [here](assets/design/Design%20sheet.png).
-
 ### 1.3 - Wireframe
 I will produce a sitemap to allow me to map out the website's pages that are utilised within the end product, to do so I will use [draw.io](https://draw.io), the exported sitemap file is also available [here](assets/design/sitemap.png).
 
