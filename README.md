@@ -18,8 +18,13 @@ To get a good colour theme set up, I have noticed the image assets provided, spe
 
 Now, I will work on the Adobe Illustrator project, which will be updated when needed and added to as the project progresses, the project file is available [here](assets/design/Design%20sheet.ai) and the latest export of the project file is [here](assets/design/Design%20sheet.png).
 
-### 1.3 - Mockup
+### 1.3 - Wireframe
 I will produce a sitemap to allow me to map out the website's pages that are utilised within the end product, to do so I will use [draw.io](https://draw.io), the exported sitemap file is also available [here](assets/design/sitemap.png).
+
+Now, I can create a wireframe that should allow me to create the design for the website, which is available here, 
+
+### 1.4 - Mockup
+
 
 Here, I aim to create a functioning design prototype and create a fully laid out website along with its featured pages, this will allow me to effectively establish the colours, layout and features of the website before having to worry about trial and error when writing the code making the process more straightforward.
 
