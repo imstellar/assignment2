@@ -25,6 +25,8 @@ Now, I can create a wireframe that should allow me to create the design for the 
 ### 1.4 - Mockup
 Here, I aim to create a functioning design prototype and create a fully laid out website along with its featured pages, this will allow me to effectively establish the colours, layout and features of the website before having to worry about trial and error when writing the code making the process more straightforward. Overall, this should be the design im going to use when creating the website itself.
 
+With that all complete, I can confidently say there is a concrete mockup created that will allow me to now build a fully fledged website that looks, functions and flows well, the project file is available at [Mockup.rp](assets/design/Mockup.rp) and is also published at [https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4](https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4).
+
 ## 2 - Developement
 ### 2.1 - Code layout
 
