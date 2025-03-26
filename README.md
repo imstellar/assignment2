@@ -30,7 +30,13 @@ Here, I aim to create a functioning design prototype and create a fully laid out
 With that all complete, I can confidently say there is a concrete mockup created that will allow me to now build a fully fledged website that looks, functions and flows well, the project file is available at [Mockup.rp](assets/design/Mockup.rp) and is also published at [https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4](https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4).
 
 ## 2 - Developement
+Within this section, I will aim to create the code and make the website functional similar to the mockup created previously, before I begin making the layouts and adding components I want to start by creating a framework of sorts, rather than using Bootstrap I would like to create my own variables and properties that contain colours, font styles and sizing as I have done in the mockup. 
+
+Any content that is tranferrable between pages, such as colours, fonts and basic sizing will be put into a different css file named "basestyles.css", this will transfer between each page and will contain the navbar and footer content as well. For content on each page I will instead utilise per-page css files such as "indexstyles.css" or "jobsstyles.css", this will allow for less interference and allow me to create independ pages that wont affect each other where not necessary.
 ### 2.1 - Code layout
+Now, We have styles established for each page as follows,
+`page.html` has the following files associated, `basestyles.css`, `pagestyles.css`, `script.js` and optionally `pagescript.js`, I will only reference the necessary files within the specific pages, this will reduce the amount of code that is loaded when its not required, which helps to speed up loading, using this type of layout also allows for more fragmented and stable code meaning parts of code are less likely to break other parts. 
+
 
 ### 2.2 - Important coding decisions made
 
