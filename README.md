@@ -36,7 +36,7 @@ Any content that is tranferrable between pages, such as colours, fonts and basic
 ### 2.1 - Code layout
 Now, We have styles established for each page as follows,
 `page.html` has the following files associated, `basestyles.css`, `pagestyles.css`, `script.js` and optionally `pagescript.js`, I will only reference the necessary files within the specific pages, this will reduce the amount of code that is loaded when its not required, which helps to speed up loading, using this type of layout also allows for more fragmented and stable code meaning parts of code are less likely to break other parts. 
-
+> Note, the "page" in the file names is a placeholder, which is replaced by the names as specified in the sitemap file, such as `indexstyles.css` or `jobscript.js`.
 
 ### 2.2 - Important coding decisions made
 
