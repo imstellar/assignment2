@@ -22,7 +22,7 @@ With this concluded, I believe this brings out a well outlined theme that is app
 ### 1.3 - Wireframe
 Before doing the wireframe I want to produce a sitemap that will allow me to map out the website's pages utilised within the end product, to do so I will use [https://draw.io](https://draw.io), the exported sitemap file is also available [sitemap.png](assets/design/sitemap.png).
 
-Now, I can create a wireframe that should allow me to create the design for the website, which is available here, [Wireframe.rp](assets/design/Wireframe.rp) and the published project is here [link]().
+Now, I can create a wireframe that should allow me to create the design for the website, which is available here, [Wireframe.rp](assets/design/Wireframe.rp) and the published project is here [https://zcvky9.axshare.com/?g=4](https://zcvky9.axshare.com/?g=4).
 
 ### 1.4 - Mockup
 Here, I aim to create a functioning design prototype and create a fully laid out website along with its featured pages, this will allow me to effectively establish the colours, layout and features of the website before having to worry about trial and error when writing the code making the process more straightforward. Overall, this should be the design im going to use when creating the website itself.
