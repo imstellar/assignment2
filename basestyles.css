@@ -1,0 +1,88 @@
+/* Styles applied to all elements by default */
+@font-face {
+    src: url(assets/fonts/Montserrat-variable.ttf);
+    font-family: Montserrat;
+}
+body {
+    margin: 0;
+}
+* {
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Static Elements */
+footer {
+    background-color: #330C13;
+    margin: 0;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 128px;
+}
+footer img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+}
+.elementfooter ul ::marker {
+    
+}
+
+/* Styles for text elements */
+h1, h2, h3 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Styles for font colours */
+/* Syntax; F=Font, A=Accent, B=Base, E=Extra, I=Important, L=Light, D=Dark, BC=Background */
+    
+    /* Basic Accent Colours */
+.f-a-b {
+    color: #4F7051;
+}
+.f-a-e {
+    color: #A9DBB2;
+}
+
+    /* Basic Font Colours */
+.f-d-b {
+    color: #E8E8E8;
+}
+.f-d-i{
+    color: #FF9292;
+}
+
+.f-l-b {
+    color: #333333;
+}
+.f-d-i {
+    color: #915656;
+}
+
+    /* Background Colours */
+.bc-l {
+    background-color: #E8E8E8;
+}
+.bc-d {
+    background-color: #000000;
+}
