@@ -40,6 +40,8 @@ Now, We have styles established for each page as follows,
 
 ### 2.2 - Important coding decisions made
 
+As I have outlined before, my website will feature a footer and navigation bar elements, which are controlled by the basestyles.css and script.js, effectively making it work on multiple pages while giving me a blank slate to work with in the specific page's css instead.
+
 ## 3 - Testing
 ### 3.1 - Test plan
 
