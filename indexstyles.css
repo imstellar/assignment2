@@ -1,0 +1,56 @@
+/* First section starts here */
+
+.text-wrap {
+    width: 300px;
+}
+.section-1 {
+    padding: 110px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+.header-buttons p {
+    margin: 0 12px;
+}
+
+@media screen and (max-width: 1400px) {
+    .section-1 {
+        flex-direction: column-reverse;
+        padding: 16px 0;
+        grid-template-rows: repeat(2, 50%);
+        row-gap: 16px;
+    }
+    .header-buttons{
+        justify-content: center;
+        flex-direction: row;
+    }
+    .section-div {
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-1 img {
+        width: 500px;
+    }
+    .text-wrap {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .section-1 img {
+        width: 300px;
+    }
+}
+
+
+
+/* Second section starts here */
+
+.section-2 {
+    padding: 16px 0;
+}

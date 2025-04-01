@@ -1,18 +1,7 @@
 /* Styles applied to all elements by default */
-@font-face {
-    src: url(assets/fonts/Montserrat-variable.ttf);
-    font-family: Montserrat;
-}
-body {
-    margin: 0;
-}
-* {
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 *:link, *:visited {
     color: var(--f-d-b);
 }
-
 /* Static Elements */
     /* Navbar */
 nav {
@@ -34,6 +23,26 @@ nav {
         justify-content: space-around;
     }
 }
+/* Buttons */
+.bttn {
+    font-weight: 700;
+    min-width: 140px;
+    width: fit-content;
+    height: 40px;
+    border: 0;
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-wrap: nowrap;
+}
+.btn-l {
+    background-color: var(--b-d);
+    color: var(--f-d-b);
+}
+.btn-d {
+    background-color: var(--b-l);
+    color: var(--f-d-b);
+}
 nav button {
     background-color: var(--b-d);
     color: var(--f-d-b);
@@ -47,7 +56,6 @@ nav button {
 }
 .focused {
     color: var(--f-a-e);
-    text-wrap: nowrap;
 }
     /* Footer */
 footer {
@@ -59,8 +67,7 @@ footer {
     padding: 32px;
 }
 footer img {
-    max-width: 256px;
-    min-width: fit-content; 
+    width: 256px;
     height: 256px;
     border-radius: 50%;
     grid-row: 1 / span 2;
@@ -68,43 +75,50 @@ footer img {
 .element-footer ul {
     list-style-type: none;
     padding-left: 0;
-    font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
-.element-footer {
+.element-footer, .last-footer {
     max-height: 256px;
     padding: 16px;
     max-width: 256px;
     min-width: 130px;
 }
-
-/* Styles for text elements */
-h1, h2, h3 {
-    font-weight: 700;
-
+.last-footer {
+    grid-row: 2;
+    grid-column: 3;
 }
-h1 {
-    font-size: 36px;
-    margin: 0 0 16px 0;
+@media screen and (max-width: 1500px) {
+    .last-footer {
+        grid-row: 2;
+        grid-column-start: 4 / span 5;
+    }
 }
-h2 {
-    font-size: 24px;
-    margin: 0 0 12px 0;
+@media screen and (max-width: 1220px) {
+    .last-footer {
+        grid-row: 3;
+        grid-column-start: 2;
+    }
 }
-h3 {
-    font-size: 18px;
-    margin: 0 0 8px 0;
+@media screen and (max-width: 907px) {
+    .last-footer {
+        grid-row: 4;
+        grid-column: 1 / span 2;
+    }
+    footer img {
+        scale: 80%;
+    }
 }
-
-p {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-label {
-    font-size: 16px;
-    font-weight: 700;
+@media screen and (max-width: 650px) {
+    .element-footer, .last-footer {
+        grid-column: 1;
+    }
+    .last-footer {
+        grid-row-start: 7;
+    }
+    footer img {
+        scale: 75%
+    }
 }
 
 /* Styles for font colours */
@@ -147,7 +161,7 @@ label {
     --f-d-b: #E8E8E8;
     --f-d-i: #FF9292;
     --f-l-b: #333333;
-    --f-d-i: #915656;
+    --f-l-i: #915656;
     --b-l: #E8E8E8;
     --b-d: #000000;
 }
