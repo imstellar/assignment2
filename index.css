@@ -1,0 +1,111 @@
+/* Section 1 */
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    background-color: var(--b-l);
+}
+.p-fixed-size {
+    width: 300px;
+}
+.bold {
+    font-weight: 700;
+}
+.button-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner {
+    margin: 0 128px;
+}
+.button-container p {
+    padding: 0 8px;
+    margin: 0;
+}
+
+/* Section 2 */
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 64px 16px;
+    background-color: var(--b-d);
+}
+.container-2 h1 {
+    margin: 16px 0 48px 0;
+    color: var(--f-d-b);
+    text-align: center;
+}
+.carousel-container {
+    width: 1200px;
+    align-self: center;
+}
+.carousel-item-content-container {
+    display: flex;
+}
+.c-i-c h3 {
+    color: var(--f-a-e);
+}
+.c-i-c p, .c-i-c ul, .c-i-c ul li{
+    color: var(--f-d-b)
+} 
+.profile-image {
+    width: 384px;
+    height: 384px;
+    border-radius: 50%;
+}
+
+/* @media breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container-1 {
+        flex-direction: column-reverse;
+    }
+    .container-1 div h1 {
+        text-wrap: wrap;
+    }
+    .section-1-image {
+        width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container-1 {
+        flex-direction: column-reverse;
+    }
+    .container-1 div h1 {
+        text-wrap: wrap;
+    }
+    .section-1-image {
+        width: 500px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section-1-image {
+        width: 750px;
+    }
+    .container-1 div h1 {
+        text-wrap: nowrap;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1660px) {
+    .container-1 {
+        flex-direction: row;
+    }
+}

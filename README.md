@@ -38,11 +38,13 @@ Utilising Bootstrap's CSS and JS frameworks I can make styles such as buttons be
 Here is an outline of what this looks like in the file structure;
 
 `page.html` has the following files associated, `base.css`, `page.css`, `script.js` and optionally `page.js`, I will only reference the necessary files within the specific pages, this will reduce the amount of code that is loaded when its not required, which helps to speed up loading. Another reason for using this type of layout also allows me to create more fragmented and stable code meaning parts of code are less likely to break other parts. 
-> Note, the "page" in the file names is a placeholder, which is replaced by the names as specified in the sitemap file, such as `index.css` or `jobs.js`.
+> Note, the `page` in the file names is a placeholder, which is replaced by the names as specified in the sitemap file, such as `index.css` or `jobs.js`.
 
 ### 2.2 - Important coding decisions made
 
-As I have outlined earlier, My footer and navigation bar elements are static through each page however, im using the `script.js` to determine the current page the user is on and highlight the matching button to keep the user informed of what part of the website they are on right now.
+As I have outlined earlier, My footer and navigation bar elements are static through each page however, im using the `script.js` to determine the current page the user is on and highlight the matching button to keep the user informed of what part of the website they are on right now, im doing this instead of changing the button styles per page, this makes it simpler overall and modular if any changes are made.
+
+I used @media queries in each page and tools such as flexbox to make the website more responsive and allow for better navigation on as many devices as possible, even then adding responsiveness to the carousel from bootstrap is quite difficult and therefore may cause issues at times.
 
 ## 3 - Testing
 ### 3.1 - Test plan
