@@ -1,0 +1,167 @@
+/* Styles applied to all elements by default */
+*:link, *:visited {
+    color: var(--f-d-b);
+}
+/* Static Elements */
+    /* Navbar */
+nav {
+    background-color: var(--b-d);
+    grid-template-columns: repeat(4, 140px);
+    grid-template-rows: repeat(auto-fit, 40px);
+    row-gap: 8px;
+    column-gap: 20px;
+    min-height: 40px;
+    padding: 16px;
+    height: fit-content;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (max-width: 720px) {
+    nav {
+        grid-template-columns: repeat(2, 140px);
+        justify-content: space-around;
+    }
+}
+/* Buttons */
+.bttn {
+    font-weight: 700;
+    min-width: 140px;
+    width: fit-content;
+    height: 40px;
+    border: 0;
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-wrap: nowrap;
+}
+.btn-l {
+    background-color: var(--b-d);
+    color: var(--f-d-b);
+}
+.btn-d {
+    background-color: var(--b-l);
+    color: var(--f-d-b);
+}
+nav button {
+    background-color: var(--b-d);
+    color: var(--f-d-b);
+    font-weight: 700;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+.focused {
+    color: var(--f-a-e);
+}
+    /* Footer */
+footer {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 260px));
+    gap: 32px;
+    background-color: #330C13;
+    padding: 32px;
+}
+footer img {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    grid-row: 1 / span 2;
+}
+.element-footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 24px;
+    font-weight: 500;
+}
+.element-footer, .last-footer {
+    max-height: 256px;
+    padding: 16px;
+    max-width: 256px;
+    min-width: 130px;
+}
+.last-footer {
+    grid-row: 2;
+    grid-column: 3;
+}
+@media screen and (max-width: 1500px) {
+    .last-footer {
+        grid-row: 2;
+        grid-column-start: 4 / span 5;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .last-footer {
+        grid-row: 3;
+        grid-column-start: 2;
+    }
+}
+@media screen and (max-width: 907px) {
+    .last-footer {
+        grid-row: 4;
+        grid-column: 1 / span 2;
+    }
+    footer img {
+        scale: 80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .element-footer, .last-footer {
+        grid-column: 1;
+    }
+    .last-footer {
+        grid-row-start: 7;
+    }
+    footer img {
+        scale: 75%
+    }
+}
+
+/* Styles for font colours */
+/* Syntax; F=Font, A=Accent, B=Base, E=Extra, I=Important, L=Light, D=Dark, BC=Background */
+    
+    /* Basic Accent Colours */
+.f-a-b {
+    color: #4F7051;
+}
+.f-a-e {
+    color: #A9DBB2;
+}
+
+    /* Basic Font Colours */
+.f-d-b {
+    color: #E8E8E8;
+}
+.f-d-i{
+    color: #FF9292;
+}
+
+.f-l-b {
+    color: #333333;
+}
+.f-d-i {
+    color: #915656;
+}
+
+    /* Background Colours */
+.bc-l {
+    background-color: #E8E8E8;
+}
+.bc-d {
+    background-color: #000000;
+}
+
+:root {
+    --f-a-b: #4f7051;
+    --f-a-e: #A9DBB2;
+    --f-d-b: #E8E8E8;
+    --f-d-i: #FF9292;
+    --f-l-b: #333333;
+    --f-l-i: #915656;
+    --b-l: #E8E8E8;
+    --b-d: #000000;
+}
