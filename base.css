@@ -1,0 +1,129 @@
+*:link, *:visited {
+    color: var(--f-a-e);
+}
+/* Navbar */
+nav {
+    display: grid;
+    background-color: var(--b-d);
+    row-gap: 8px;
+    column-gap: 16px;
+    padding: 16px;
+}
+nav button {
+    background-color: #000;
+    font-weight: 700;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Footer */
+.no-list-style {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+footer {
+    display: grid;
+    justify-content: space-around;
+    background-color: var(--f-b);
+    padding: 16px;
+}
+footer img {
+    align-self: center;
+    justify-self: center;
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+    grid-row: 1 / span 2;
+}
+footer div {
+    margin-top: 16px;
+}
+footer div h2, footer div li, footer div li ul, footer p {
+    color: var(--f-d-b);
+    font-weight: 600;
+}
+.footer-copyright {
+    text-align: center;
+    align-self: self-end;
+}
+
+
+/* @media breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 128px;
+        grid-template-columns: repeat(2, 128px);
+        justify-content: space-around;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    nav {
+        grid-template-columns: repeat(2, 140px);
+        justify-content: space-around;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    footer {
+        grid-template-columns: repeat(2, 344px);
+        grid-template-rows: repeat(2, minmax(128px, 256px));
+    }
+    .footer-copyright {
+        grid-column: 1 / span 2;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    nav {
+        grid-template-columns: repeat(4, 140px);
+        grid-template-rows: repeat(1, 40px);
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    footer {
+        grid-template-columns: repeat(3, 344px);
+        grid-template-rows: repeat(2, minmax(128px, 256px));
+    }
+    .footer-copyright {
+        grid-column: 2;
+    }
+}
+
+@media only screen and (min-width: 1820px) {
+    footer {
+        grid-template-columns: repeat(auto-fit, 344px);
+        grid-template-rows: repeat(2, 200px);
+    }
+    footer div {
+        margin-top: 128px;
+    }
+    .footer-copyright {
+        grid-column-start: 3;
+    }
+}
+
+:root {
+    --f-a-b: #4f7051; /* Font Accent Base */
+    --f-a-e: #A9DBB2; /* Font Accent Extra */
+    --f-d-b: #E8E8E8; /* Font Dark Base */
+    --f-d-i: #FF9292; /* Font Dark Important */
+    --f-l-b: #333333; /* Font Light Base */
+    --f-l-i: #915656; /* Font Light Important */
+    --b-l: #E8E8E8; /* Background Light */
+    --b-d: #000000; /* Background Dark */
+    --f-b: #330C13; /* Footer Background */
+}

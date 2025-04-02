@@ -32,15 +32,17 @@ With that all complete, I can confidently say there is a concrete mockup created
 ## 2 - Developement
 Within this section, I will aim to create the code and make the website functional similar to the mockup created previously, before I begin making the layouts and adding components I want to start by creating a framework of sorts, rather than using Bootstrap I would like to create my own variables and properties that contain colours, font styles and sizing as I have done in the mockup. 
 
-Any content that is tranferrable between pages, such as colours, fonts and basic sizing will be put into a different css file named "basestyles.css", this will transfer between each page and will contain the navbar and footer content as well. For content on each page I will instead utilise per-page css files such as "indexstyles.css" or "jobsstyles.css", this will allow for less interference and allow me to create independ pages that wont affect each other where not necessary.
 ### 2.1 - Code layout
-Now, We have styles established for each page as follows,
-`page.html` has the following files associated, `basestyles.css`, `pagestyles.css`, `script.js` and optionally `pagescript.js`, I will only reference the necessary files within the specific pages, this will reduce the amount of code that is loaded when its not required, which helps to speed up loading, using this type of layout also allows for more fragmented and stable code meaning parts of code are less likely to break other parts. 
-> Note, the "page" in the file names is a placeholder, which is replaced by the names as specified in the sitemap file, such as `indexstyles.css` or `jobscript.js`.
+Utilising Bootstrap's CSS and JS frameworks I can make styles such as buttons be easy to implement, I can also customise each part of the element to fit the style which is needed to get the same look as seen in the mockup. Other styles that are not stored within `bootstrap.css` are instead going to be stored in `base.css`, this is where the Navigation bar, Footer and colours will be stored to persist on each page.
+
+Here is an outline of what this looks like in the file structure;
+
+`page.html` has the following files associated, `base.css`, `page.css`, `script.js` and optionally `page.js`, I will only reference the necessary files within the specific pages, this will reduce the amount of code that is loaded when its not required, which helps to speed up loading. Another reason for using this type of layout also allows me to create more fragmented and stable code meaning parts of code are less likely to break other parts. 
+> Note, the "page" in the file names is a placeholder, which is replaced by the names as specified in the sitemap file, such as `index.css` or `jobs.js`.
 
 ### 2.2 - Important coding decisions made
 
-As I have outlined before, my website will feature a footer and navigation bar elements, which are controlled by the basestyles.css and script.js, effectively making it work on multiple pages while giving me a blank slate to work with in the specific page's css instead.
+As I have outlined earlier, My footer and navigation bar elements are static through each page however, im using the `script.js` to determine the current page the user is on and highlight the matching button to keep the user informed of what part of the website they are on right now.
 
 ## 3 - Testing
 ### 3.1 - Test plan
