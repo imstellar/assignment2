@@ -30,7 +30,7 @@ Here, I aim to create a functioning design prototype and create a fully laid out
 With that all complete, I can confidently say there is a concrete mockup created that will allow me to now build a fully fledged website that looks, functions and flows well, the project file is available at [Mockup.rp](assets/design/Mockup.rp) and is also published at [https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4](https://9c3qq3.axshare.com/?code=6226de0c00075d1ada792b7f84699b73&g=4).
 
 ## 2 - Developement
-Within this section, I will aim to create the code and make the website functional similar to the mockup created previously, before I begin making the layouts and adding components I want to start by creating a framework of sorts, rather than using Bootstrap I would like to create my own variables and properties that contain colours, font styles and sizing as I have done in the mockup. 
+Within this section, I will aim to create the code and make the website functional similar to the mockup created previously, before I begin making the layouts and adding components I want to start by creating a framework that I can understand and update easily, while also using Bootstrap I would like to create my own variables and properties that contain colours, font styles and sizing as I have done in the mockup. 
 
 ### 2.1 - Code layout
 Utilising Bootstrap's CSS and JS frameworks I can make styles such as buttons be easy to implement, I can also customise each part of the element to fit the style which is needed to get the same look as seen in the mockup. Other styles that are not stored within `bootstrap.css` are instead going to be stored in `base.css`, this is where the Navigation bar, Footer and colours will be stored to persist on each page.
@@ -45,6 +45,8 @@ Here is an outline of what this looks like in the file structure;
 As I have outlined earlier, My footer and navigation bar elements are static through each page however, im using the `script.js` to determine the current page the user is on and highlight the matching button to keep the user informed of what part of the website they are on right now, im doing this instead of changing the button styles per page, this makes it simpler overall and modular if any changes are made.
 
 I used @media queries in each page and tools such as flexbox to make the website more responsive and allow for better navigation on as many devices as possible, even then adding responsiveness to the carousel from bootstrap is quite difficult and therefore may cause issues at times.
+
+Along with that, in the main page `index.html`, I have added a carousel using bootstrap, this proved to be a challenge and has taken a long time to make sure the sizing and animations work as intended. With that said however the carousel has also been made into a very responsive design and works well all the way down to 400px width without issue.
 
 ## 3 - Testing
 ### 3.1 - Test plan
