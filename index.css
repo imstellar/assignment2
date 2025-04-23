@@ -55,7 +55,6 @@
 }
 .carousel-item-content p, .carousel-item-content ul{
     color: var(--f-d-b);
-    font-weight: 500;
 } 
 .carousel-item-content a {
     width: fit-content;
