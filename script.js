@@ -11,16 +11,14 @@ function navBarButtonHighlight() {
     while (i < 4) {
         const button = totalButtons[i];
         const page = button.getAttribute("data-page");
-        console.log("Target page:", page, "page:", currentPage)
 
-
-        if (page == currentPage) {
-            console.log("Page button found")
+        if (page == currentPage || currentPage == "") {
+            console.log("Navbar - Current page highlighted")
             button.classList.add("btn-focused")
             button.classList.remove("btn-dark")
             i = 4
         } else {
-            console.log("Page button mismatch")
+            console.log("Navbar - Page mismatch")
             i++
         }
     }
