@@ -2,30 +2,27 @@
 .section-1 {
     background-color: var(--b-l);
     height: max-content;
-    padding: 16px 0;
+    padding: 32px 0;
 }
-.section-1 h1 {
+.section-heading {
     text-align: center;
+    padding-bottom: 32px;
 }
 .section-1-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 16px 0;
 }
-.section-1-right-container {
-    margin-left: 32px;
-}
-.section-1-right-container p {
+.section-1-container div p {
     max-width: 680px;
 }
-.section-1-right-container a button {
+.section-1-container div a button {
     min-width: 140px;
 }
 /* Section 2 */
 .section-2 {
     background-color: var(--b-d);
-    padding-top: 16px;
+    padding: 32px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,17 +33,20 @@
     text-decoration: underline;
     color: var(--f-a-e);
 }
-.section-2 h1, .section-2 p, .profile-right ul {
+.section-2 h1 {
     color: var(--f-d-b);
-    padding: 8px;
+}
+.section-2 p, .profile-right ul {
+    color: var(--f-d-b);
+    padding: 8px 16px;
 }
 .section-2 p {
     max-width: 1000px;
 }
 .profile {
-    margin: 32px;
+    margin: 16px;
     display: grid;
-    grid-template-columns: minmax(300px, max-content);
+    grid-template-columns: minmax(268px, max-content);
 }
 .profile-left {
     padding-right: 16px;
@@ -147,6 +147,9 @@
     }
     .section-1-container {
         flex-direction: row;
+    }
+    .section-1-container div {
+        margin-left: 32px;
     }
 }
 
