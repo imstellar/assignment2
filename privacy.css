@@ -1,0 +1,32 @@
+section {
+    background-color: var(--f-d-b);
+    padding: 32px 0;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+h4 {
+    padding-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px) { /* 1200px and down */
+    section h4, section h5, section p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) { /* 1200px and up */
+    section h4, section h5, section p {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+}
+
+@media only screen and (min-width: 1200px) { /* 1200px and up */
+    section h4, section h5, section p {
+        margin-left: 128px;
+        margin-right: 128px;
+    }
+}
