@@ -12,8 +12,8 @@ h4 {
 
 @media only screen and (max-width: 768px) { /* 1200px and down */
     section h4, section h5, section p {
-        margin-left: 16px;
-        margin-right: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
 
