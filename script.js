@@ -11,6 +11,8 @@ function navBarButtonHighlight() {
     while (i < 4) {
         const button = totalButtons[i];
         const page = button.getAttribute("data-page");
+        console.log("Target page:", page, "page:", currentPage)
+
 
         if (page == currentPage) {
             console.log("Page button found")
