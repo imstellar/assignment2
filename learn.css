@@ -1,0 +1,57 @@
+/* Section 1 */
+
+.section-1 {
+    background-color: var(--b-l);
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1 h1 {
+    text-align: center;
+    color: var(--f-l-b);
+}
+.section-1 p {
+    max-width: 1000px;
+}
+.section-1 h2 {
+    padding: 16px 0;
+    color: var(--f-a-b)
+}
+
+/* Section 2 */
+
+.section-2 {
+    background-color: var(--b-d);
+    padding: 32px 0;
+    display: grid;
+    justify-content: space-evenly;
+}
+.section-2 h1 {
+    text-align: center;
+    color: var(--f-d-b);
+}
+.section-2 div h2 {
+    padding: 16px 0;
+    grid-row: 2;
+    color: var(--f-a-e);
+    text-align: center;
+}
+.section-2 div p {
+    max-width: 600px;
+    color: var(--f-d-b);
+}
+
+
+/* Everything smaller, 1200px and down */
+@media only screen and (max-width: 1200px) {
+    .c1, .c2{grid-column: 1;}
+    .section-2 h1 {grid-column: 1;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .c1{grid-column: 1;}
+    .c2 {grid-column: 2;}
+    .section-2 h1 {grid-column: 1 / span 2;}
+}
