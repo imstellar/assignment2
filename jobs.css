@@ -1,0 +1,27 @@
+/* Section 1 */
+
+.section-1 {
+    background-color: var(--b-l);
+    padding: 128px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 div h1 {
+    color: var(--f-a-b);
+}
+.section-1 div p {
+    max-width: 1000px;
+}
+.label {
+    color: var(--f-a-b);
+    font-weight: 700;
+    font-size: 16px;
+}
+.section-2 {
+    background-color: var(--b-d);
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 2;
+
+}
