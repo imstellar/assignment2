@@ -22,7 +22,7 @@ iframe {height: 256px}
 .section-1 div p {
     max-width: 1000px;
 }
-.label {
+.prompt {
     color: var(--f-a-b);
     font-weight: 700;
     font-size: 16px;
@@ -31,35 +31,61 @@ iframe {height: 256px}
 .section-2, .section-3 {
     width: 100%;
     display: grid;
+    grid-template-columns: repeat(var(--grid-column-count), minmax(16px, max-content));
 }
 .section-2 {background-color: var(--b-d);}
 .section-3 {background-color: var(--b-l);}
 
+/* Application section */
+
+.form-section {
+    width: 100%;
+    background-color: var(--b-d );
+    display: grid;
+}
+
 /* Everything smaller, 768px and down */
 @media only screen and (max-width: 768px) {
+    :root {--grid-column-count: 1;}
     .left-panel, iframe {width: 100%;}
+    .form-section {
+        padding: 16px;
+        column-gap: 0;
+    }
     .section-2, .section-3 {
-        grid-template-columns: repeat(1, minmax(16px, max-content));
         padding: 16px; 
-        column-gap: 0;}
+        column-gap: 0;
+    }
     .right-panel {grid-column: 1; padding-top: 16px;}
     .section-1 {padding: 32px 0;}
 }
 
 /* Large devices (laptops/desktops, 768px and up */
 @media only screen and (min-width: 768px) {
+    :root {--grid-column-count: 2;}
     .left-panel, iframe {width: 320px;}
+    .form-section {
+        padding: 32px;
+        column-gap: 16px;
+    }
     .section-2, .section-3 {
         padding: 32px;
         column-gap: 16px;
-        grid-template-columns: repeat(2, minmax(16px, max-content));}
+    }
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .section-1 {padding: 64px 0;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .section-2, .section-3 {column-gap: 16px; grid-template-columns: repeat(2, minmax(16px, max-content));}
+    :root {--grid-column-count: 2;}
+    .section-2, .section-3 {
+        column-gap: 16px; 
+    }
+    .form-section {
+        padding: 32px;
+        column-gap: 16px;
+    }
     .left-panel, iframe {width: 380px;}
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .section-1 {padding: 128px 0;}
