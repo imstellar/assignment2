@@ -3,6 +3,7 @@
 p {font-weight: 600}
 .highlighted-light {color: var(--f-a-e)}
 .highlighted-dark {color: var(--f-a-b)}
+.highlighted-important {color: var(--f-d-i);text-decoration: underline;}
 .light-font {color: var(--f-d-b)}
 .dark-font {color: var(--f-l-b)}
 iframe {height: 256px}
@@ -31,7 +32,7 @@ iframe {height: 256px}
 .section-2, .section-3 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(var(--grid-column-count), minmax(16px, max-content));
+    grid-template-columns: repeat(var(--description-columns), minmax(16px, max-content));
 }
 .section-2 {background-color: var(--b-d);}
 .section-3 {background-color: var(--b-l);}
@@ -40,14 +41,35 @@ iframe {height: 256px}
 
 .form-section {
     width: 100%;
-    background-color: var(--b-d );
+    background-color: var(--b-d);
     display: grid;
+    grid-template-columns: repeat(var(--application-container-columns), minmax(16px, max-content));
 }
+
+form {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: repeat(var(--application-columns), minmax(8px, max-content));
+    grid-template-rows: repeat(auto-fit, minmax(16px, max-content));
+}
+form h3 {
+    color: var(--f-a-e);
+    text-decoration: underline;
+    grid-column: 1 / span 3;
+}
+form div {display: flex; flex-direction: column;}
+form label {color: var(--f-d-b)}
 
 /* Everything smaller, 768px and down */
 @media only screen and (max-width: 768px) {
-    :root {--grid-column-count: 1;}
+    :root {
+        --description-columns: 1;
+        --application-container-columns: 1;
+        --application-columns: 1;
+    }
     .left-panel, iframe {width: 100%;}
+    form {column-gap: 0;}
     .form-section {
         padding: 16px;
         column-gap: 0;
@@ -62,8 +84,13 @@ iframe {height: 256px}
 
 /* Large devices (laptops/desktops, 768px and up */
 @media only screen and (min-width: 768px) {
-    :root {--grid-column-count: 2;}
+    :root {
+        --description-columns: 2;
+        --application-container-columns: 2;
+        --application-columns: 2;
+    }
     .left-panel, iframe {width: 320px;}
+    form {column-gap: 16px;}
     .form-section {
         padding: 32px;
         column-gap: 16px;
@@ -78,7 +105,11 @@ iframe {height: 256px}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    :root {--grid-column-count: 2;}
+    :root {
+        --description-columns: 2;
+        --application-container-columns: 2;
+        --application-columns: 3;
+    }
     .section-2, .section-3 {
         column-gap: 16px; 
     }
@@ -86,6 +117,7 @@ iframe {height: 256px}
         padding: 32px;
         column-gap: 16px;
     }
+    form {column-gap: 32px;}
     .left-panel, iframe {width: 380px;}
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .section-1 {padding: 128px 0;}
