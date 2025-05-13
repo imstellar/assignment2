@@ -1,8 +1,17 @@
+/* Global elements */
+
+p {font-weight: 600}
+.highlighted-light {color: var(--f-a-e)}
+.highlighted-dark {color: var(--f-a-b)}
+.light-font {color: var(--f-d-b)}
+.dark-font {color: var(--f-l-b)}
+iframe {height: 256px}
+.left-panel, iframe {grid-column: 1;}
+
 /* Section 1 */
 
 .section-1 {
     background-color: var(--b-l);
-    padding: 128px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +27,40 @@
     font-weight: 700;
     font-size: 16px;
 }
-.section-2 {
-    background-color: var(--b-d);
-    padding: 16px;
+/* Job description sections */
+.section-2, .section-3 {
+    width: 100%;
     display: grid;
-    grid-template-columns: 2;
+    column-gap: 16px;
+}
+.section-2 {background-color: var(--b-d);}
+.section-3 {background-color: var(--b-l);}
 
+/* Everything smaller, 768px and down */
+@media only screen and (max-width: 768px) {
+    .left-panel, iframe {width: 100%;}
+    .section-2, .section-3 {
+        grid-template-columns: repeat(1, minmax(16px, max-content));
+        padding: 16px; 
+        column-gap: 0;}
+    .right-panel {grid-column: 1; padding-top: 16px;}
+    .section-1 {padding: 32px 0;}
+}
+
+/* Large devices (laptops/desktops, 768px and up */
+@media only screen and (min-width: 768px) {
+    .left-panel, iframe {width: 320px;}
+    .section-2, .section-3 {
+        padding: 32px;
+        grid-template-columns: repeat(2, minmax(16px, max-content));}
+    .right-panel {grid-column: 2; grid-row: 1 / span 10;}
+    .section-1 {padding: 64px 0;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section-2, .section-3 {grid-template-columns: repeat(2, minmax(16px, max-content));}
+    .left-panel, iframe {width: 380px;}
+    .right-panel {grid-column: 2; grid-row: 1 / span 10;}
+    .section-1 {padding: 128px 0;}
 }
