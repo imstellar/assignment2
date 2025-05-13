@@ -18,7 +18,7 @@
         <a href="jobs.html"><button class="btn btn-dark" data-page="jobs.html" id="nav-button">Vacancies</button></a>
         <a href="learn.html"><button class="btn btn-dark" data-page="learn.html" id="nav-button">Learn</button></a>
     </nav>
-    <section class="container-fluid section-1">
+    <section class="section-1">
         <div>
             <h1>Work with us</h1>
             <p>Welcome to our vacancies page, here you can apply for any of our available positions and be fairly considered to join our awesome team at Hot Beans Web.</p>
@@ -137,22 +137,28 @@
         </p>
     </section>
     <section class="form-section">
-        <h2 class="left-panel highlighted-light">Application Form</h2>
-        <p class="left-panel highlighted-light">
-            If any of the available positions suits you, don't hesitate to apply with this form.<br><br>
-            Before submitting, please note the "Vacancy code" of the role you would like to apply for, it helps us keep track of each application.<br><br>
-            If you are a non-UK national you may be required to prove your immigration status by providing a Share Code under the EU Settlement scheme or equivalent.
-        </p>
-        <p class="left-panel highlighted-important">Fields marked with ( * ) are required to submit your application.</p>
+        <div>
+            <h2 class="left-panel highlighted-light">Application Form</h2>
+            <p class="left-panel highlighted-light">
+                If any of the available positions suits you, don't hesitate to apply with this form.<br><br>
+                Before submitting, please note the "Vacancy code" of the role you would like to apply for, it helps us keep track of each application.<br><br>
+                If you are a non-UK national you may be required to prove your immigration status by providing a Share Code under the EU Settlement scheme or equivalent.
+            </p>
+            <p class="left-panel highlighted-important">Fields marked with ( * ) are required to submit your application.</p>
+        </div>
         <form>
             <h3>About you</h3>
             <div>
-                <label for="first-name">First name:</label>
+                <label for="first-name">First name *</label>
                 <input type="text" id="first-name" name="first-name">
             </div>
             <div>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"z>
+                <label for="other-name">Other names</label>
+                <input type="text" id="other-name" name="other-name">
+            </div>
+            <div>
+                <label for="last-name">Last name *</label>
+                <input type="text" id="last-name" name="last-name">
             </div>
         </form>
     </section>
