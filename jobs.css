@@ -31,7 +31,6 @@ iframe {height: 256px}
 .section-2, .section-3 {
     width: 100%;
     display: grid;
-    column-gap: 16px;
 }
 .section-2 {background-color: var(--b-d);}
 .section-3 {background-color: var(--b-l);}
@@ -52,6 +51,7 @@ iframe {height: 256px}
     .left-panel, iframe {width: 320px;}
     .section-2, .section-3 {
         padding: 32px;
+        column-gap: 16px;
         grid-template-columns: repeat(2, minmax(16px, max-content));}
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .section-1 {padding: 64px 0;}
@@ -59,7 +59,7 @@ iframe {height: 256px}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .section-2, .section-3 {grid-template-columns: repeat(2, minmax(16px, max-content));}
+    .section-2, .section-3 {column-gap: 16px; grid-template-columns: repeat(2, minmax(16px, max-content));}
     .left-panel, iframe {width: 380px;}
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .section-1 {padding: 128px 0;}
