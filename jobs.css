@@ -47,26 +47,29 @@ iframe {height: 256px}
 
 form {
     display: grid;
-    row-gap: 8px;
-    grid-template-columns: repeat(var(--application-columns), minmax(8px, max-content));
+    row-gap: 16px;
+    grid-template-columns: repeat(var(--application-columns), minmax(8px, fit-content));
     grid-template-rows: repeat(auto-fit, minmax(16px, max-content));
 }
-
-form h3 {
-    color: var(--f-a-e);
+form h4 {color: var(--f-d-b);}
+form h3 {color: var(--f-a-e);}
+form h4, form h3 {
+    margin: 8px 0px !important; 
     text-decoration: underline;
 }
-form div {display: flex; flex-direction: column;}
-form label {color: var(--f-d-b)}
+form label {color: var(--f-d-b);}
+select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
 
 /* Everything smaller, 480px and down*/
 @media only screen and (max-width: 480px) {
     .section-1 {padding: 32px 16px;}
     .section-2, .section-3 {padding: 16px; column-gap: 0;}
     :root {--application-columns: 1;}
+    .left-panel, iframe {width: 100%;}
     .form-section {padding: 16px; flex-direction: column;}
-
-    form h3 {grid-column: 1;}
+    form h3, form h4 {grid-column: 1;}
+    input, select, option {width: 100%;}
+    form div {max-width: 100%;}
 }
 
 /* Smaller devices, 480px and up */
@@ -80,8 +83,10 @@ form label {color: var(--f-d-b)}
     .right-panel {grid-column: 1; padding-top: 16px;}
     .left-panel, iframe {width: 100%;}
     .form-section {padding: 16px; flex-direction: column;}
-    form {column-gap: 0; justify-content: space-around;}
-    form h3 {grid-column: 1 / span 2;}
+    form {column-gap: 0; column-gap: 16px;}
+    form h3, form h4 {grid-column: 1 / span 2;}
+    input, select, option {width: 100%;}
+    form div {max-width: 100%;}
 }
 
 /* Large devices (laptops/desktops, 768px and up */
@@ -96,14 +101,16 @@ form label {color: var(--f-d-b)}
     .left-panel, iframe {width: 320px;}
     .form-section {padding: 32px; column-gap: 16px; flex-direction: row;}
     form {column-gap: 16px;}
-    form h3 {grid-column: 1 / span 2;}
+    form h3, form h4 {grid-column: 1 / span 2;}
+    input, select, option {width: 100%;}
+    form div {max-width: 100%;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     :root {
         --description-columns: 2;
-        --application-columns: 3;
+        --application-columns: 2;
     }
     .section-1 {padding: 128px 0;}
     .section-2, .section-3 {column-gap: 16px;}
@@ -111,5 +118,7 @@ form label {color: var(--f-d-b)}
     .left-panel, iframe {width: 380px;}
     .form-section {padding: 32px; column-gap: 32px;}
     form {column-gap: 32px;}
-    form h3 {grid-column: 1 / span 3;}
+    form h3, form h4 {grid-column: 1 / span 2;}
+    input, select, option {width: 268px;}
+    form div {max-width: 268px;}
 }
