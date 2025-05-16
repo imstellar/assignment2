@@ -44,21 +44,24 @@ iframe {height: 256px}
     background-color: var(--b-d);
     display: flex;
 }
-
 form {
     display: grid;
     row-gap: 16px;
     grid-template-columns: repeat(var(--application-columns), minmax(8px, fit-content));
     grid-template-rows: repeat(auto-fit, minmax(16px, max-content));
 }
-form h4 {color: var(--f-d-b);}
+form h4, form h5 {color: var(--f-d-b);}
 form h3 {color: var(--f-a-e);}
-form h4, form h3 {
+form h4, form h3{
     margin: 8px 0px !important; 
     text-decoration: underline;
 }
 form label {color: var(--f-d-b);}
 select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
+.checkbox-div input {max-width: max-content;}
+.textarea {grid-column: 1 / span var(--application-columns); max-width: 100% !important;}
+textarea {width: 100%;}
+.submit-button {width: 100% !important; height: 40px !important; justify-self: center; align-self: center; grid-column: 1;}
 
 /* Everything smaller, 480px and down*/
 @media only screen and (max-width: 480px) {
@@ -68,7 +71,7 @@ select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
     .left-panel, iframe {width: 100%;}
     .form-section {padding: 16px; flex-direction: column;}
     form h3, form h4 {grid-column: 1;}
-    input, select, option {width: 100%;}
+    div input, select, option {width: 100%;}
     form div {max-width: 100%;}
 }
 
@@ -85,7 +88,7 @@ select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
     .form-section {padding: 16px; flex-direction: column;}
     form {column-gap: 0; column-gap: 16px;}
     form h3, form h4 {grid-column: 1 / span 2;}
-    input, select, option {width: 100%;}
+    div input, select, option {width: 100%;}
     form div {max-width: 100%;}
 }
 
@@ -102,7 +105,7 @@ select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
     .form-section {padding: 32px; column-gap: 16px; flex-direction: row;}
     form {column-gap: 16px;}
     form h3, form h4 {grid-column: 1 / span 2;}
-    input, select, option {width: 100%;}
+    div input, select, option {width: 100%;}
     form div {max-width: 100%;}
 }
 
@@ -116,9 +119,9 @@ select, select option {color: var(--f-l-b); height: 30px; font-weight: 600;}
     .section-2, .section-3 {column-gap: 16px;}
     .right-panel {grid-column: 2; grid-row: 1 / span 10;}
     .left-panel, iframe {width: 380px;}
-    .form-section {padding: 32px; column-gap: 32px;}
+    .form-section {padding: 32px; column-gap: 16px;}
     form {column-gap: 32px;}
     form h3, form h4 {grid-column: 1 / span 2;}
-    input, select, option {width: 268px;}
+    div input, select, option {width: 268px;}
     form div {max-width: 268px;}
 }

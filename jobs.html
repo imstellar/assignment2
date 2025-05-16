@@ -185,7 +185,7 @@
             <h4>Current Employment</h4>
             <div>
                 <label for="status">Employment Status *</label>
-                <select id="address" name="address">
+                <select id="status" name="status">
                     <option value="unemployed">Unemployed</option>
                     <option value="self_Employed">Self Employed</option>
                     <option value="student">Student</option>
@@ -215,6 +215,95 @@
                 <label for="github">GitHub URL</label>
                 <input type="url" id="github" name="github">
             </div>
+            <h3>Technical skills</h3>
+            <div class="checkbox-div">
+                <h5>Coding Languages</h5>
+                <input type="checkbox" id="skills_html" name="skills_html">
+                <label for="skills_html">- HTML</label><br>
+                <input type="checkbox" id="skills_css" name="skills_css">
+                <label for="skills_css">- CSS</label><br>
+                <input type="checkbox" id="skills_javascript" name="skills_javascript">
+                <label for="skills_javascript">- JavaScript</label><br>
+                <input type="checkbox" id="skills_python" name="skills_python">
+                <label for="skills_python">- Python</label><br>
+                <input type="checkbox" id="skills_cpp" name="skills_cpp">
+                <label for="skills_cpp">- C++</label><br>
+                <input type="checkbox" id="skills_csharp" name="skills_csharp">
+                <label for="skills_csharp">- C#</label><br>
+                <input type="checkbox" id="skills_rust" name="skills_rust">
+                <label for="skills_rust">- Rust</label>
+            </div>
+            <div class="checkbox-div">
+                <h5>Frameworks</h5>
+                <input type="checkbox" id="skills_react" name="skills_react">
+                <label for="skills_react">- React</label><br>
+                <input type="checkbox" id="skills_angular" name="skills_angular">
+                <label for="skills_angular">- Angular</label><br>
+                <input type="checkbox" id="skills_vue" name="skills_vue">
+                <label for="skills_vue">- Vue.js</label><br>
+                <input type="checkbox" id="skills_node" name="skills_node">
+                <label for="skills_node">- Node.js</label>
+            </div>
+            <div class="checkbox-div">
+                <h5>Databases</h5>
+                <input type="checkbox" id="skills_sql" name="skills_sql">
+                <label for="skills_sql">- MySQL</label><br>
+                <input type="checkbox" id="skills_post" name="skills_post">
+                <label for="skills_post">- PostgreSQL</label><br>
+                <input type="checkbox" id="skills_mongo" name="skills_mongo">
+                <label for="skills_mongo">- Mongo.db</label>
+            </div>
+            <div class="textarea">
+                <label for="extra">Briefly list any other relevant tools you are proficient with</label><br>
+                <textarea id="extra" name="extra"></textarea>
+            </div>
+            <h3>Experience and education</h4>
+            <div>
+                <label for="start">Available start date *</label>
+                <select id="start" name="start">
+                    <option value="immediately">Immediately</option>
+                    <option value="withinweek">Within one week</option>
+                    <option value="withintwo">Within two weeks</option>
+                    <option value="withinmonth">Within one month</option>
+                    <option value="later">Later</option>
+                </select>
+            </div>
+            <div>
+                <label for="salary">Salary expectations</label>
+                <input type="text" id="salary" name="salary">
+            </div>
+            <div>
+                <label for="permission">Are you legally allowed to work in the UK? *</label>
+                <select id="permission" name="permission">
+                    <option value="notsure">Not sure</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div>
+                <label for="experience">Years of experience in Web Development *</label>
+                <select id="experience" name="experience">
+                    <option value="0">0 Years</option>
+                    <option value="1-2">1-2 Years</option>
+                    <option value="3-4">3-4 Years</option>
+                    <option value="5-6">5-6 Years</option>
+                    <option value="7+">7+ Years</option>
+                </select>
+            </div>
+            <div>
+                <label for="education">What is your highest level qualification *</label>
+                <select id="experience" name="experience">
+                    <option value="GCSE1-3">GCSE 1-3 or Other Level 1 Equivalent</option>
+                    <option value="GCSE4-9">GCSE 4-9 or Other Level 2 Equivalent</option>
+                    <option value="a_level">A Level or Other Level 3 Equivalent</option>
+                    <option value="level_4">Level 4 Certificate or Equivalent</option>
+                    <option value="level_5">Level 5 Certificate or Equivalent</option>
+                    <option value="level_6">Level 6 Certificate or Equivalent</option>
+                    <option value="level_7">Level 7 Certificate or Equivalent</option>
+                    <option value="level_8">Level 8 Certificate or Equivalent</option>
+                </select>
+            </div>
+            <input class="btn btn-light submit-button" type="submit">
         </form>
     </section>
     <footer class="container-fluid">
