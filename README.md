@@ -90,12 +90,17 @@ My website has focused on meeting the target audience also as we previously have
 
 Along with this evaluation, I also want to cover how my personal time has been used for this project along with my changes and considerations I have made throughout starting with;
 - My commit history, this is available [here](https://github.com/imstellar/assignment2/commits/main/) and showcases a waterfall of my changes spanning over 60 different instances, with this you can also see which days the commits were posted and how well my work has been spread out throughout this project's lifespan.
-- I have spent a lot of time just learning new things for this project, including how CSS grid works, how to implement a carousel via Bootstrap
+- I have spent a lot of time just learning new things for this project, including how CSS grid works, how to implement a carousel via Bootstrap, these features required a lot of time and research for me to properly implement, which I have done during this assignment.
+- In general, I have attempted to make sure to keep a regular schedule throughout my time away from college to work on this assignment, this has allowed to me to manage my workload dynamically by working on the tasks that are closer to be due at the time.
 
 ### 4.2 - Potential future improvements
+While I believe my website works really well and is highly responsive there could surely be more improvements and features that could be made;
 
-### 4.3 - Reviewing actions taken based on feedback
+- Further form handling to allow the form to be submitted to a database or other data structure.
+- Higher quality animations could allow even more fluid menus or interactive elements.
+- An administrative console, this could be used to allow the company to add new vacancies easily or view form responses.
 
+Im sure there are even better imrovements to be made and they change up the quality of the website for the better however with my current coding experience the website is quite basic with some interactive elements.
 ## References
 - Adobe Colors, Available at [https://color.adobe.com](https://color.adobe.com/)
 - Draw.io, Available at [https://draw.io/](https://draw.io/)
