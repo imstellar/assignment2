@@ -72,6 +72,13 @@ To get some feedback from outside sources, I will utilise a google form which wi
 
 From the feedback gathered, I can confidently say the code in my website works as I expect it to on different devices as shown from the feedback by others. This means I have created a well suited solution for the client and I am happy with the end result.
 
+### 3.4 - Optimisations
+With the feedback gathered from the form I have also done a couple optimisations throughout the pages, mainly I have focused on unifying the mobile layout's look by ensuring the padding spacing is cohesive within each section of the site, this is set to left and right sides of the page to 16px padding values, this makes the website feel more spacious and more pleasant to look at without compromising readability or other components.
+
+At the lowest screen resolution the website is designed for which is 300 px wide, there is a total of 32px that is reserved for padding on each of the left and right sides, this means there is 268 px available for content for the website, this is further optimised by bootstrap by making sure font sizes are set dynamically based on screen size keeping it more dense the smaller the screen is to make sure the website is still readable and such.
+
+To conclude this section, another important part of the file structure is the split css files, these store the styles by page rather than all in one file that must be loaded in each website which provides significant gains in the loading speed of each page.
+
 ## 4 - Evaluation
 ### 4.1 - Final Evaluation
 Referencing the above information, with all the steps I have taken up until now in the planning and developement process the project as a whole has concluded into a published and well-suited site for the client that fits their requirements as specified;
